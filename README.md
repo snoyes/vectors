@@ -23,7 +23,7 @@ pip install vectors
 ## Usage
 There are multiple ways to create our vector instances using the vectors module.
 
-We can first initialize some vectors and points calling their repsective class
+We can first initialize some vectors and points calling their respective class
 contructors as follows.
 
 ```Python
@@ -45,14 +45,14 @@ components = [1.2, 2.4, 3.8]
 v = Vector.from_list(components) #=> Vector(1.2, 2.4, 3.8)
 ```
 
-We can also create our Vectors from two Point instances using the classmethod
+We can also create our Vectors from two Point instances using the class method
 from_points().
 
 ```Python
 v = Vector.from_points(p1, p2) #=> Vector(1, -2, -4)
 ```
 
-We can also get access to the vector array to use it with other libraries.
+We can also get access to the vector array to use with other libraries.
 
 ```Python
 v1.vector #=> [1, 2, 3]
